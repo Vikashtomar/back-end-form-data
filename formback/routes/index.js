@@ -14,6 +14,9 @@ app.use(cors({ origin: "http://localhost:5173" }));
  }))
 app.post("/register", (req, res) => {
   console.log(req.body);
+
+  // git pushing data after pushing plz remove it...
+  console.log(res)
 });
 
 connection.then(() =>
