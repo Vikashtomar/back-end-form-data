@@ -34,7 +34,7 @@ export default function App() {
         placeholder="Enter your email"
         {...register("email", { required: true })}
       />
-      {errors.email && <p role="alert">Enter a valid email</p>}
+      {errors.email && <p role="alert">Enter your  valid email</p>}
       <input
         type="text"
         placeholder="Enter your phone number"
